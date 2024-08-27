@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPatterns_FactoryM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPatterns_AbstractFactory", "CreationalPatterns_AbstractFactory\CreationalPatterns_AbstractFactory.csproj", "{78DB4A83-2A94-4AA4-BCFE-7A5FC5C147AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatterns_Builder", "CreationalPatterns_Builder\CreationalPatterns_Builder.csproj", "{38EAED04-7B66-4C03-8010-BD61A1C9D1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPatterns_Builder", "CreationalPatterns_Builder\CreationalPatterns_Builder.csproj", "{38EAED04-7B66-4C03-8010-BD61A1C9D1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatterns_Prototype", "CreationalPatterns_Prototype\CreationalPatterns_Prototype.csproj", "{4E66345D-A5A9-4238-9D31-648C31241521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPatterns_Prototype", "CreationalPatterns_Prototype\CreationalPatterns_Prototype.csproj", "{4E66345D-A5A9-4238-9D31-648C31241521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatterns_Singleton", "CreationalPatterns_Singleton\CreationalPatterns_Singleton.csproj", "{A47C700A-C11C-4FE3-A4D6-F107A5D56B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalPatterns_Singleton", "CreationalPatterns_Singleton\CreationalPatterns_Singleton.csproj", "{A47C700A-C11C-4FE3-A4D6-F107A5D56B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterens_Adapter", "StructuralPatterens_Adapter\StructuralPatterens_Adapter.csproj", "{BB274F60-1DD7-436A-8D4D-30A5D3030834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns_Bridge", "StructuralPatterns_Bridge\StructuralPatterns_Bridge.csproj", "{F283BB4D-C4B1-4827-9257-C94D55C72680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{A47C700A-C11C-4FE3-A4D6-F107A5D56B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47C700A-C11C-4FE3-A4D6-F107A5D56B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47C700A-C11C-4FE3-A4D6-F107A5D56B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB274F60-1DD7-436A-8D4D-30A5D3030834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB274F60-1DD7-436A-8D4D-30A5D3030834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB274F60-1DD7-436A-8D4D-30A5D3030834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB274F60-1DD7-436A-8D4D-30A5D3030834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F283BB4D-C4B1-4827-9257-C94D55C72680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F283BB4D-C4B1-4827-9257-C94D55C72680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F283BB4D-C4B1-4827-9257-C94D55C72680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F283BB4D-C4B1-4827-9257-C94D55C72680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
